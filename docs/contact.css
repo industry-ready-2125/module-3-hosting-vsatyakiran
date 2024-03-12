@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(182, 175, 175, 0.29), rgba(159, 153, 153, 0.331)), url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/a42d50110453463.5fed6ca7dd004.png");
+    background-size:auto;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    
+}
+
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #c81313;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d72d2d;
+}
